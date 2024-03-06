@@ -1,0 +1,248 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  /*color: #818181;*/
+  color: white;
+  display: block;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #FE828C;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*@media screen and (max-height: 450px) {*/
+/*  .sidenav {padding-top: 15px;}*/
+/*  .sidenav a {font-size: 18px;}*/
+/*}*/
+
+@media all and (min-width: 720px){
+  nav ul{
+    text-align: center;
+  }
+}
+
+section{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 100px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  /*background: url(https://previews.123rf.com/images/alekss/alekss1503/alekss150300154/37125811-the-many-dollars-money-background.jpg);*/
+  background: #000 url(https://www.battea.com/wp-content/uploads/2016/06/iStock-465375462.jpg)no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+  width: 88%;
+  height:100vh;
+  padding-top: 30px;
+  font-weight: bold;
+  /*font-family: 'IM Fell French Canon SC', serif;*/
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Chelsea Market', cursive;
+}
+ 
+.Home{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.cpomagazine.com/wp-content/uploads/2019/11/privacy-concerns-around-financial-data-in-google-citi-partnership_1500.jpg)no-repeat center fixed;
+  /*background-size: cover;*/
+  text-align: center;
+  width: 88%;
+  font-size: 5px
+  color: white;
+}
+
+.Home li{
+    padding-left: 180px;
+    text-align: left;
+    color: #FE828C;
+     font-family: 'Caveat', cursive;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+p{
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+}
+.Financial{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.cpomagazine.com/wp-content/uploads/2019/11/privacy-concerns-around-financial-data-in-google-citi-partnership_1500.jpg)no-repeat center fixed;
+  background-size: cover;
+  width: 88%;
+  /*height:100vh;*/
+  padding-top: 30px;
+  font-size: 5px
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.Financial li{
+  font-size: 30px;
+  color: #FE828C;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.Financial p{
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  color: #FE828C;
+}
+
+h4{
+  color: white;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+}
+
+.Opportunities{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.cpomagazine.com/wp-content/uploads/2019/11/privacy-concerns-around-financial-data-in-google-citi-partnership_1500.jpg)no-repeat center fixed;
+  background-size: cover;
+  width: 88%;
+  /*height:100vh;*/
+  padding-top: 30px;
+  font-size: 5px
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.Opportunities li{
+  font-size: 30px;
+  color: #FE828C;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.Opportunities p{
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  color: #FE828C;
+}
+
+.Opportunities h4{
+ text-decoration: underline;
+ font-size: 30px;
+  font-family: 'Acme', sans-serif;
+}
+
+.Opportunities h3{
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+}
+
+a {
+  font-size: 25px;
+  font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+p1{
+  font-size: 30px;
+font-family: 'Amatic SC', cursive;
+}
+
+p2{
+  font-size: 30px;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.Employment{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.cpomagazine.com/wp-content/uploads/2019/11/privacy-concerns-around-financial-data-in-google-citi-partnership_1500.jpg)no-repeat center fixed;
+  background-size: cover;
+  width: 88%;
+  /*height:100vh;*/
+  padding-top: 30px;
+  font-size: 5px
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.Employment li{
+  font-size: 30px;
+color: #FE828C;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.Employment h5{
+  text-decoration: underline;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+}
+
+p{
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  color: #FE828C;
+}
+
+.Math{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.cpomagazine.com/wp-content/uploads/2019/11/privacy-concerns-around-financial-data-in-google-citi-partnership_1500.jpg)no-repeat center fixed;
+  background-size: cover;
+  width: 88%;
+  padding-top: 30px;
+  font-size: 5px
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+
+.Math h4{
+  text-decoration: underline;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+}
+
+.Math p{
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.Math li{
+  font-size: 30px;
+  color: #FE828C;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+
+
